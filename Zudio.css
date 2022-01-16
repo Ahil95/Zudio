@@ -43,18 +43,20 @@ h1{
     font-weight: 200px;
 }
 section{
-    background-image: url("F:\Agira Tech\HTML\revenge shopping.jpg");
+   
     line-height: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     padding-left: 30px;
+    margin: 20px 0;
+    transition: margin-left ease-in 2s;
     
 }
-p:hover{
-
-    text-decoration: underline;
+p{
+    border-color: black;
 }
+
 #topmost{
 
     padding-top: 100px;
@@ -79,12 +81,15 @@ body{
     color: transparent;
     padding-bottom: 500px;
     
+    
 }
 .men:hover{
     color: rgb(12, 12, 12);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
+    
 }
+
 .women{
     position: absolute;
     top: 80%;
@@ -97,4 +102,13 @@ body{
     color: rgb(12, 12, 12);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
+}
+.container:hover{
+
+    border-radius: 10%;
+}
+
+p:hover{
+
+    margin-left:500px ;
 }
